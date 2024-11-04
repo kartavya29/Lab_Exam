@@ -24,6 +24,8 @@ function Signup() {
       <input name="email" placeholder="Email" onChange={handleChange} />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} />
       <button onClick={handleSignup}>Signup</button>
+
+    
     </div>
   );
 }
